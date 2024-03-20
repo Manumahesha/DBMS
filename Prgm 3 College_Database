@@ -44,17 +44,17 @@ INSERT INTO CLASS VALUES(5,'4SF20CS098');
 
 =======================================================================================================================================================
 
-CREATE TABLE SUBJECT (
+CREATE TABLE COURSE (
 SUBCODE VARCHAR2(7) PRIMARY KEY, 
 TITLE VARCHAR2(20), 
 SEM NUMBER(4), 
 CREDIT NUMBER(2));
 
-INSERT INTO SUBJECT VALUES('20CS31','DATA STRUCTURE',4,4);
-INSERT INTO SUBJECT VALUES('20CS32','UNIX',4,3);
-INSERT INTO SUBJECT VALUES('20CS33','DBMS',5,4);
-INSERT INTO SUBJECT VALUES('20CS34','DCN',5,3);
-INSERT INTO SUBJECT VALUES('20CS35','AIML',8,4);
+INSERT INTO COURSE VALUES('20CS31','DATA STRUCTURE',4,4);
+INSERT INTO COURSE VALUES('20CS32','UNIX',4,3);
+INSERT INTO COURSE VALUES('20CS33','DBMS',5,4);
+INSERT INTO COURSE VALUES('20CS34','DCN',5,3);
+INSERT INTO COURSE VALUES('20CS35','AIML',8,4);
 
 =================================================================================================================================================================
 
