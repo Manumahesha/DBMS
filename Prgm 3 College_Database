@@ -30,11 +30,11 @@ INSERT INTO SEMSEC VALUES(6,5,'A');
 ==========================================================================================================================================================================
 
 CREATE TABLE CLASS (
-SSID NUMBER(5),
 USN VARCHAR2(20), 
+SSID NUMBER(5),
 PRIMARY KEY(USN), 
-FOREIGN KEY(SSID) REFERENCES SEMSEC(SSID), 
-FOREIGN KEY(USN) REFERENCES STUDENT(USN));
+FOREIGN KEY(USN) REFERENCES STUDENT(USN)
+FOREIGN KEY(SSID) REFERENCES SEMSEC(SSID));
 
 INSERT INTO CLASS VALUES(1,'4SF20CD001');
 INSERT INTO CLASS VALUES(2,'4SF20CS088');
