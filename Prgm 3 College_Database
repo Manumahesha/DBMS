@@ -45,10 +45,11 @@ INSERT INTO CLASS VALUES(5,'4SF20CS098');
 =======================================================================================================================================================
 
 CREATE TABLE COURSE (
-SUBCODE VARCHAR2(7) PRIMARY KEY, 
+SUBCODE VARCHAR2(7), 
 TITLE VARCHAR2(20), 
 SEM NUMBER(4), 
-CREDIT NUMBER(2));
+CREDIT NUMBER(2),
+PRIMARY KEY(SUBCODE));
 
 INSERT INTO COURSE VALUES('20CS31','DATA STRUCTURE',4,4);
 INSERT INTO COURSE VALUES('20CS32','UNIX',4,3);
